@@ -67,12 +67,29 @@ header .slider .title .image {
   margin-bottom: -60px;
 }
 
+footer p {
+  font-size: 16px;
+  line-height: 140%;
+}
+
+footer img {
+  width: 25%;
+}
+
+footer a {
+  font-weight: bold;
+}
+
+#products {
+  position: relative;
+}
+
 #products .title h4 {
   font-size: 48px;
   line-height: 59px;
 }
 
-#products .basket i {
+#products .basket-button i {
   border: 1px solid #ECEEF6;
   width: 50px;
   height: 50px;
@@ -81,7 +98,7 @@ header .slider .title .image {
   color: #F58656;
 }
 
-#products .basket sub {
+#products .basket-button sub {
   bottom: 5px;
   right: 10px;
   font-size: 16px;
@@ -117,16 +134,28 @@ header .slider .title .image {
   width: 85%;
 }
 
-footer p {
-  font-size: 16px;
-  line-height: 140%;
+.basket {
+  width: 320px;
+  position: absolute;
+  top: 75px;
+  right: 115px;
+  opacity: 0;
 }
 
-footer img {
-  width: 25%;
+.basket h2 {
+  font-size: 20px;
 }
 
-footer a {
-  font-weight: bold;
+.basket img {
+  width: 50px;
+}
+
+.basket .content p {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.basket .content strong {
+  font-size: 12px;
 }
 /*# sourceMappingURL=style.css.map */
