@@ -19,10 +19,6 @@ fetch(`https://isko88.github.io/apipizza.json`)
         cardImg.style.paddingTop = "25px";
         cardImg.src = product.image;
         cardImg.setAttribute('alt', 'Product image');
-        // let button = document.createElement('button');
-        // button.className = "btn btn-light";
-        // button.setAttribute("type", "button");
-        // button.textContent = "Add to basket";
         let cardBody = document.createElement('div');
         cardBody.className = "card-body";
         let cardTitle = document.createElement('h5');
@@ -40,7 +36,6 @@ fetch(`https://isko88.github.io/apipizza.json`)
         cardBody.appendChild(cardTitle);
         cardBody.appendChild(cardText);
         cardBody.appendChild(cardPrice);
-        cardBody.appendChild(button);
         card.appendChild(cardBody);
         col.appendChild(card);
         productsList.append(col);
