@@ -1,0 +1,42 @@
+// Header style
+header{
+    .header{
+        a{
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+        }
+        img{
+            width: 65%;
+            margin-top: -20px;
+        }
+        i{
+            background: $icon-color;
+            color: $white;
+            width: 30px;
+            height: 30px;
+        }
+        span{
+            font-weight: bold;
+            margin-left: 10px;
+        }
+    }
+    .slider{
+        .title{
+            h2{
+                font-size: 48px;
+                line-height: 59px;
+            }
+            p{
+                font-size: 17px;
+                line-height: 140%;
+            }
+            .image{margin-bottom: -60px;}
+        }
+    }
+}
+
+
+
+
+

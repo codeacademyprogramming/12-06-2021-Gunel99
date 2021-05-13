@@ -1,0 +1,19 @@
+.basket{
+    width: 320px;
+    position: absolute;
+    top: 75px;
+    right: 115px;
+    opacity: 0;
+    h2{
+        font-size: 20px;
+    }
+    img{width: 50px;}
+    .content{
+        p{
+            font-size: 12px;
+            margin-bottom: 0px;
+        }
+        strong{font-size: 12px;}
+    }
+   
+}

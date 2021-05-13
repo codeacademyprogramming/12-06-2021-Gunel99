@@ -1,0 +1,22 @@
+
+#contact{
+    .title{
+        h3{
+            font-size: 48px;
+            line-height: 150%;
+        }
+    }
+    form{
+        input, button{border-radius: 50px;}
+        button{
+            background: $button-color;
+            border: 1px solid $button-color;
+            padding-right: 60px;
+            padding-left: 60px;
+        }
+    }
+    .image{
+        margin-bottom: -11px;
+        img{ width: 85%; }
+    }
+}

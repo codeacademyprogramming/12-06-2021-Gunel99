@@ -1,0 +1,3 @@
+export const STORAGE_KEYS = {
+    PRODUCT_BASKET: "PRODUCT_BASKET",
+};

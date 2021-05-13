@@ -1,0 +1,28 @@
+#products{
+    position: relative;
+    .title h4{
+        font-size: 48px;
+        line-height: 59px;
+    }
+    .basket-button{
+        i{
+            border: 1px solid $border-color;
+            width: 50px;
+            height: 50px;
+            padding: 13px;
+            font-size: 22px;
+            color: $icon-color;
+        }
+        sub{
+            bottom: 5px;
+            right: 10px;
+            font-size: 16px;
+            background: $icon-color;
+            color: $white;
+            width: 20px;
+            height: 20px;
+            padding-top: 9px;
+            padding-left: 5px;
+        }
+    }
+}
