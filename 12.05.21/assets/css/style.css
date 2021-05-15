@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 85%;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #444444;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+header .header a {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+header .header img {
+  width: 65%;
+  margin-top: -20px;
+}
+
+header .header i {
+  background: #F58656;
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+}
+
+header .header span {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+header .slider .title h2 {
+  font-size: 48px;
+  line-height: 59px;
+}
+
+header .slider .title p {
+  font-size: 17px;
+  line-height: 140%;
+}
+
+header .slider .title .image {
+  margin-bottom: -60px;
+}
+
+footer p {
+  font-size: 16px;
+  line-height: 140%;
+}
+
+footer img {
+  width: 25%;
+}
+
+footer a {
+  font-weight: bold;
+}
+
+#products {
+  position: relative;
+}
+
+#products .title h4 {
+  font-size: 48px;
+  line-height: 59px;
+}
+
+#products .basket-button i {
+  border: 1px solid #ECEEF6;
+  width: 50px;
+  height: 50px;
+  padding: 13px;
+  font-size: 22px;
+  color: #F58656;
+}
+
+#products .basket-button sub {
+  bottom: 5px;
+  right: 10px;
+  font-size: 16px;
+  background: #F58656;
+  color: #ffffff;
+  width: 20px;
+  height: 20px;
+  padding-top: 9px;
+  padding-left: 5px;
+}
+
+#contact .title h3 {
+  font-size: 48px;
+  line-height: 150%;
+}
+
+#contact form input, #contact form button {
+  border-radius: 50px;
+}
+
+#contact form button {
+  background: #FC4C4C;
+  border: 1px solid #FC4C4C;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+#contact .image {
+  margin-bottom: -11px;
+}
+
+#contact .image img {
+  width: 85%;
+}
+
+.basket {
+  width: 320px;
+  position: absolute;
+  top: 75px;
+  right: 115px;
+  opacity: 0;
+}
+
+.basket h2 {
+  font-size: 20px;
+}
+
+.basket img {
+  width: 50px;
+}
+
+.basket .content p {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.basket .content strong {
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */
